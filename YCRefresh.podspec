@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YCRefresh'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.license          = { :type => "MIT", :file => "LICENSE" }
 
   s.summary          = 'An easy way to use pull-to-refresh, MJRefresh with swift version.'
@@ -20,7 +20,8 @@ Pod::Spec.new do |s|
   s.swift_version = '5.0'
   s.platform      = :ios
   s.ios.deployment_target  = '9.0'
-
+  s.requires_arc = true
+  
   s.source_files = 'YCRefresh/Classes/**/*'
   s.resource      = "YCRefresh/**/*.bundle"
 end
