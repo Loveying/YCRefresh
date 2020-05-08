@@ -1,0 +1,6 @@
+module Pods_YCRefresh_Example {
+  umbrella header "Pods-YCRefresh_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

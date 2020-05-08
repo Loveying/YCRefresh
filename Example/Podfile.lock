@@ -1,0 +1,16 @@
+PODS:
+  - YCRefresh (1.0.0)
+
+DEPENDENCIES:
+  - YCRefresh (from `../`)
+
+EXTERNAL SOURCES:
+  YCRefresh:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YCRefresh: 6d4a5c89b3d2d45cf151ee2ebdecb736d90ae05d
+
+PODFILE CHECKSUM: e4da654c06582b8abe24ec9f9bc3cd1a63dd1506
+
+COCOAPODS: 1.8.4
